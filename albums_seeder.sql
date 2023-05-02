@@ -1,5 +1,5 @@
 USE bigfoot_test_db;
-
+TRUNCATE albums;
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
     VALUES
